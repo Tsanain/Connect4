@@ -31,9 +31,10 @@ body {
 }
 
 #playAgain{
-    border: 0px;
+    border: 2px solid var(--text-color);
+    border-radius: 25px;
     margin: 20px;
-    padding: 0;
+    padding: 5px;
     cursor: pointer;
     
     color: var(--text-color);

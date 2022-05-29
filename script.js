@@ -131,7 +131,7 @@ function setWinner(r, c) {
         winner.innerText = "Yellow Wins!!!";
         alert("Yellow Wins\nTo play again click on the 'Play again' button. ");
     }
-    var again = document.getElementById("playAgain");
-    again.innerHTML = "<h1>Play again</h1>";
+    var again = document.getElementById("playA");
+    again.innerHTML = '<button id ="playAgain" onclick=playAgain()><h1>Play again</h1></button>';
     gameOver = true;
 }
