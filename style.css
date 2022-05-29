@@ -1,0 +1,72 @@
+:root{
+    --bg-color: #fff;
+    --text-color: black;
+}
+
+.dark-theme {
+    --bg-color: #151515;
+    --text-color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#toggleDark{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: fixed;
+    left: 10px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+#toggleDark i{
+    width: 30px;
+}
+
+#playAgain{
+    border: 0;
+    margin: 20px;
+    padding: 0;
+    cursor: pointer;
+    
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Connect 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d7bd7e3ac7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button id="toggleDark" class="brawl-bg" onclick=toggleDark()><i class="fa-solid fa-moon fa-2xl" id="icon"></i></button>
+    <h1>Connect 4 Game</h1>
+    <br>
+    <br>
+    <h2 id="winner"></h2>
+    <div id="board"></div>
+    <button id ="playAgain" onclick=playAgain()><h2></h2></button>
+
+    <script>
+        var a = document.getElementById("toggleDark");
+        toggleDark = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                a.innerHTML= '<i class="fa-solid fa-sun fa-2xl green-color"></i>'
+            }else{
+                a.innerHTML='<i class="fa-solid fa-moon fa-2xl  green-color" id="icon"></i>'
+            }
+        }
+    </script>
+</body>
+</html>
