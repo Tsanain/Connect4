@@ -42,8 +42,8 @@ body {
 
 
 #board {
-    height: 540px;
-    width: 630px;
+    height: 33.75rem;
+    width: 39.375rem;
     background-color: blue;
     border: 10px solid navy;
     
@@ -53,9 +53,9 @@ body {
 }
 
 .tile {
-    height: 70px;
-    width: 70px;
-    margin: 5px;
+    height: 4.375rem;
+    width: 4.375rem;
+    margin: 0.3125rem;
 
     /* Circle */
     background-color: var(--bg-color);
