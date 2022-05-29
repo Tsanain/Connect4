@@ -125,10 +125,10 @@ function checkWinner() {
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
     if (board[r][c] == playerRed) {
-        winner.innerText = "Red Wins"; 
+        winner.innerText = "Red Wins!!!"; 
         alert("Red Wins\nTo play again click on the 'Play again' button. ");            
     } else {
-        winner.innerText = "Yellow Wins";
+        winner.innerText = "Yellow Wins!!!";
         alert("Yellow Wins\nTo play again click on the 'Play again' button. ");
     }
     var again = document.getElementById("playAgain");
