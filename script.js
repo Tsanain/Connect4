@@ -130,6 +130,6 @@ function setWinner(r, c) {
         winner.innerText = "Yellow Wins";
     }
     var again = document.getElementById("playAgain");
-    again.innerHTML = "<h2>Play again<h2>";
+    again.innerHTML = "<h1>Play again</h1>";
     gameOver = true;
 }

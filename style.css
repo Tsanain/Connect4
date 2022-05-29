@@ -31,7 +31,7 @@ body {
 }
 
 #playAgain{
-    border: 0;
+    border: 0px;
     margin: 20px;
     padding: 0;
     cursor: pointer;
@@ -42,8 +42,8 @@ body {
 
 
 #board {
-    height: 33.75rem;
-    width: 39.375rem;
+    height: 540px;
+    width: 630px;
     background-color: blue;
     border: 10px solid navy;
     
@@ -53,9 +53,9 @@ body {
 }
 
 .tile {
-    height: 4.375rem;
-    width: 4.375rem;
-    margin: 0.3125rem;
+    height: 70px;
+    width: 70px;
+    margin: 5px;
 
     /* Circle */
     background-color: var(--bg-color);
