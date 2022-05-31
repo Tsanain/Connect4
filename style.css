@@ -78,7 +78,25 @@ body {
 }
 
 
-@media only screen and (max-width: 400px){
+
+
+@media only screen and (max-width: 420px){
+    #board {
+        height: 180px;
+        width: 210px;
+        border: 3px solid navy;
+        margin: 0 auto;
+    }
+
+    .tile {
+        height: 23px;
+        width: 23px;
+        margin: 1.66px;
+        border: 1.66px solid navy;
+    }
+}
+
+@media only screen and (max-height: 420px){
     #board {
         height: 180px;
         width: 210px;
