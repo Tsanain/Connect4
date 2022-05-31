@@ -26,9 +26,6 @@ body {
     background-color: var(--bg-color);
 }
 
-#toggleDark i{
-    width: 30px;
-}
 
 #playAgain{
     border: 2px solid var(--text-color);
@@ -63,6 +60,41 @@ body {
     border-radius: 50%;
     border: 5px solid navy;
 }
+
+@media only screen and (max-width: 600px){
+    #board {
+        height: 300px;
+        width: 350px;
+        border: 5.55px solid navy;
+        margin: 0 auto;
+    }
+
+    .tile {
+        height: 38.8px;
+        width: 38.8px;
+        margin: 2.77px;
+        border: 2.77px solid navy;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    #board {
+        height: 180px;
+        width: 210px;
+        border: 3px solid navy;
+        margin: 0 auto;
+    }
+
+    .tile {
+        height: 23px;
+        width: 23px;
+        margin: 1.66px;
+        border: 1.66px solid navy;
+    }
+}
+
+
 
 .red-piece {
     background-color: red;
