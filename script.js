@@ -125,11 +125,11 @@ function checkWinner() {
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
     if (board[r][c] == playerRed) {
-        winner.innerText = "Red Wins!!!"; 
-        alert("Red Wins\nTo play again click on the 'Play again' button. ");            
+        winner.innerText = "Red Connects 4!!!"; 
+        alert("Red Connects 4\nTo play again click on the 'Play again' button. ");            
     } else {
         winner.innerText = "Yellow Wins!!!";
-        alert("Yellow Wins\nTo play again click on the 'Play again' button. ");
+        alert("Yellow Connects 4\nTo play again click on the 'Play again' button. ");
     }
     var again = document.getElementById("playA");
     again.innerHTML = '<button id ="playAgain" onclick=playAgain()><h1>Play again</h1></button>';
